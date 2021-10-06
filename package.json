@@ -1,0 +1,22 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --dist-dir ./distFinal",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amey Bairolu",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-nightly.843",
+    "parcel": "^2.0.0-nightly.841"
+  },
+  "dependencies": {
+    "core-js": "^3.18.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
